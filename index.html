@@ -3,23 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Roberto Valarezo – Portfolio</title>
+  <title>Roberto Valarezo | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-  <header class="bg-white shadow p-6">
-    <h1 class="text-3xl font-bold text-center">🚀 Roberto Valarezo – Portfolio</h1>
-    <p class="text-center text-gray-600 mt-2">
-      AI Engineer | Computer Vision | Mobile & Web Developer
-    </p>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-8 shadow-md">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl font-bold">Roberto Valarezo</h1>
+      <p class="text-lg mt-2">Artificial Intelligence Engineer | App Developer</p>
+      <p class="mt-1">Passionate about building intelligent, real-time applications</p>
+    </div>
   </header>
 
-  <main class="max-w-4xl mx-auto p-6 space-y-12">
-    <!-- Project 1 -->
+  <!-- Content -->
+  <main class="max-w-4xl mx-auto px-4 py-10 space-y-16">
+
+    <!-- Torneos By Zurda -->
     <section>
       <h2 class="text-2xl font-semibold">1. Torneos By Zurda (2025)</h2>
-      <p class="text-gray-700 mt-2">
-        A platform for managing volleyball tournaments with <b>live scoreboards, player statistics, ranking tables, and live streaming</b> – all in real time.
+      <p class="mt-2 text-gray-700">
+        A platform for managing volleyball tournaments with <b>live scoreboards, player statistics, ranking tables, and live streaming</b>.
       </p>
       <p class="mt-2"><b>Tech:</b> Flutter, Firebase</p>
       <ul class="list-disc ml-6 mt-2">
@@ -28,66 +33,112 @@
         <li>Tournament ranking tables</li>
         <li>Live streaming support</li>
       </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/torneos-score.png" alt="Live Scoreboard" class="rounded-lg shadow">
+        <img src="./images/torneos-stats.png" alt="Player Stats" class="rounded-lg shadow">
+      </div>
       <a href="https://torneos-by-zurda.web.app/" target="_blank" class="inline-block mt-3 px-4 py-2 bg-blue-600 text-white rounded-lg">View Live</a>
     </section>
 
-    <!-- Project 2 -->
+    <!-- Insevig Custody -->
     <section>
       <h2 class="text-2xl font-semibold">2. Insevig Custody (2024)</h2>
-      <p class="text-gray-700 mt-2">
-        Internal app for a security company. Allows clients to request custody services for goods (land or maritime). Tracks every custody step from arrival to delivery.
+      <p class="mt-2 text-gray-700">
+        Logistics solution for managing custody requests of vehicles and shipments with <b>tracking, approvals, and secure workflows</b>.
       </p>
       <p class="mt-2"><b>Tech:</b> Flutter, Firebase</p>
       <ul class="list-disc ml-6 mt-2">
-        <li>Create and track custody requests</li>
-        <li>Vehicle & resource assignment</li>
-        <li>Step-by-step custody logging</li>
+        <li>Custody request creation and validation</li>
+        <li>Tracking custody process in real time</li>
+        <li>Custom user roles for drivers, admins, and clients</li>
       </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/custody-form.png" alt="Custody Request Form" class="rounded-lg shadow">
+        <img src="./images/custody-tracking.png" alt="Custody Tracking" class="rounded-lg shadow">
+      </div>
     </section>
 
-    <!-- Project 3 -->
+    <!-- Insevig Logs -->
     <section>
       <h2 class="text-2xl font-semibold">3. Insevig Logs (2024)</h2>
-      <p class="text-gray-700 mt-2">
-        Customizable digital logbooks for security posts. Replaces paper logs and allows clients to access structured, real-time data.
+      <p class="mt-2 text-gray-700">
+        Digital logbook application for <b>automating vehicle and personnel access registration</b>.
       </p>
       <p class="mt-2"><b>Tech:</b> Flutter, Firebase</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Custom log creation and visualization</li>
+        <li>Real-time access records</li>
+        <li>Cloud database for centralized reports</li>
+      </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/logs-active.png" alt="Active Log Entry" class="rounded-lg shadow">
+        <img src="./images/logs-list.png" alt="Logs List" class="rounded-lg shadow">
+      </div>
     </section>
 
-    <!-- Project 4 -->
+    <!-- CIR Forms -->
     <section>
       <h2 class="text-2xl font-semibold">4. CIR Forms (2023)</h2>
-      <p class="text-gray-700 mt-2">
-        Survey app for the Rural Research Center. Supports <b>offline-first data collection</b> with real-time sync, used to gather information from farmers affected by droughts.
+      <p class="mt-2 text-gray-700">
+        Mobile-first survey app designed for <b>field data collection</b>, including offline mode and secure synchronization.
       </p>
       <p class="mt-2"><b>Tech:</b> Flutter, Firebase</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Customizable survey creation</li>
+        <li>Offline-first data collection</li>
+        <li>Automatic cloud sync when online</li>
+      </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/forms-survey.png" alt="Survey Screen" class="rounded-lg shadow">
+        <img src="./images/forms-sync.png" alt="Offline Sync" class="rounded-lg shadow">
+      </div>
     </section>
 
-    <!-- Project 5 -->
+    <!-- Agua Pol -->
     <section>
       <h2 class="text-2xl font-semibold">5. Agua Pol (2022)</h2>
-      <p class="text-gray-700 mt-2">
-        IoT-enabled Android app to monitor campus water reservoirs with Zigbee sensors. Sends alerts when levels drop below thresholds.
+      <p class="mt-2 text-gray-700">
+        IoT-based app for monitoring water levels in tanks with <b>real-time alerts and visualization dashboards</b>.
       </p>
-      <p class="mt-2"><b>Tech:</b> Android (Java), Firebase, IoT (Zigbee)</p>
+      <p class="mt-2"><b>Tech:</b> Android (Java), Firebase</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Real-time water level monitoring</li>
+        <li>Automatic alerts when levels are low</li>
+        <li>Dashboard with historical data</li>
+      </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/agua-dashboard.png" alt="Water Dashboard" class="rounded-lg shadow">
+        <img src="./images/agua-alert.png" alt="Water Alert" class="rounded-lg shadow">
+      </div>
     </section>
 
-    <!-- Project 6 -->
+    <!-- La Fabril Reports -->
     <section>
       <h2 class="text-2xl font-semibold">6. La Fabril Reports (2021)</h2>
-      <p class="text-gray-700 mt-2">
-        First professional project as an intern. Replaced manual paper logs with a real-time digital reporting system integrated with MySQL.
+      <p class="mt-2 text-gray-700">
+        Application for digitalizing industrial reports, replacing paper processes with <b>automated digital forms</b>.
       </p>
-      <p class="mt-2"><b>Tech:</b> Android (Java), MySQL</p>
+      <p class="mt-2"><b>Tech:</b> Flutter, Firebase</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Digital replacement for paper reports</li>
+        <li>Automatic data export to cloud</li>
+        <li>Improved reporting efficiency</li>
+      </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        <img src="./images/reports-form.png" alt="Report Form" class="rounded-lg shadow">
+        <img src="./images/reports-export.png" alt="Report Export" class="rounded-lg shadow">
+      </div>
     </section>
+
   </main>
 
-  <footer class="bg-gray-100 p-6 mt-12 text-center text-gray-600">
-    <p>©️ 2025 Roberto Valarezo – Built with ❤️ using Tailwind CSS</p>
-    <p>
-      <a href="https://github.com/RobertoValarezo" target="_blank" class="text-blue-600">GitHub</a> |
-      <a href="mailto:tuemail@example.com" class="text-blue-600">Email</a>
-    </p>
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 mt-10">
+    <div class="max-w-4xl mx-auto text-center">
+      <p>&copy; 2025 Roberto Valarezo | Built with ❤️ using HTML & Tailwind</p>
+      <p class="mt-1">Connect with me on <a href="https://github.com/robertovalarezo" target="_blank" class="underline">GitHub</a></p>
+    </div>
   </footer>
+
 </body>
 </html>
