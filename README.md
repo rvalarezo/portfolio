@@ -1,7 +1,15 @@
 # 🚀 Roberto Valarezo – Project Portfolio
 
 Welcome to my project portfolio!  
-Here you will find a selection of applications I’ve developed or contributed to, showcasing my experience in *Artificial Intelligence, Computer Vision, Web and Mobile Development, and Data Engineering*.
+Here you will find a selection of applications I’ve developed or contributed to, showcasing my experience in *Artificial Intelligence, Computer Vision, Web and Mobile Development, Mechatronics and Data Engineering*.
+
+## 🌎 About Me
+I’m a *Mid-level AI Engineer* with experience building *computer vision solutions, web/mobile apps, and data pipelines*.  
+Currently studying *Data Engineering & Analytics* while working on AI and full-stack projects. 
+
+
+## 🔗 Web Portfolio
+[Web Portfolio](https://rvalarezo.github.io/portfolio/)
 
 ---
 
@@ -22,7 +30,7 @@ A platform for managing volleyball tournaments with *live scoreboards, player st
 •⁠  ⁠Tournament ranking tables  
 •⁠  ⁠Live streaming support  
 
-![Screenshot](./images/torneos.png)
+![Screenshot](./images/torneos-score.jpeg)
 
 ---
 
@@ -40,6 +48,8 @@ Internal app for a custody & security company, allowing clients to request custo
 •⁠  ⁠Vehicle and resource assignment  
 •⁠  ⁠Step-by-step custody logging  
 
+![Screenshot](./images/custody-tracking.jpeg)
+
 ---
 
 ### 3. Insevig Logs (2024)  
@@ -49,6 +59,8 @@ Customizable *digital security logbooks* to replace paper records, assigned to s
 
 *Technologies:* ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)  
 *My Role:* Full-stack developer  
+
+![Screenshot](./images/logs-active.jpeg)
 
 ---
 
@@ -70,6 +82,8 @@ IoT-enabled Android app to monitor campus *water reservoirs* using Zigbee sensor
 *Technologies:* ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black) ![IoT](https://img.shields.io/badge/IoT-FF6F00?logo=raspberrypi&logoColor=white)  
 *My Role:* IoT & Android developer  
 
+![Screenshot](./images/agua-dashboard.png)
+
 ---
 
 ### 6. La Fabril Reports (2021)  
@@ -79,6 +93,8 @@ First professional project as an intern. Replaced manual paper logs for machine 
 
 *Technologies:* ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)  
 *My Role:* Junior developer  
+
+![Screenshot](./images/report-dashboard.jpg)
 
 ---
 
@@ -93,7 +109,5 @@ First professional project as an intern. Replaced manual paper logs for machine 
 
 ---
 
-## 🌎 About Me
-I’m a *Mid-level AI Engineer* with experience building *computer vision solutions, web/mobile apps, and data pipelines*.  
-Currently studying *Data Engineering & Analytics* while working on AI and full-stack projects.  
+
 
